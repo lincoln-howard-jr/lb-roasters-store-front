@@ -1,0 +1,36 @@
+.header {
+    width: 100%;
+    height: 17.5svh;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.nav {
+    display: block;
+    margin: 0;
+    padding: 1rem;
+}
+.links {
+    width: min(80ch, 100%);
+    margin: auto;
+    padding: 0;
+    list-style-type: none;
+    display: grid;
+    gap: min(3ch, 3.5vw);
+    grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+}
+.links li {
+    transition: 0.2s;
+    cursor: pointer;
+    display: grid;
+    font-size: 1.1rem;
+    color: black;
+    place-items: center;
+}
+.links li.active {
+    text-decoration: underline var(--accent-color);
+}
+.links img {
+    margin: auto;
+    width: min(100%, 10vh);
+}

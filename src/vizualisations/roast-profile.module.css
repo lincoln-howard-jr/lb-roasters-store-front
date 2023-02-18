@@ -1,0 +1,24 @@
+.roast-profile {
+    user-select: none;
+    width: min(55ch, 100%);
+    margin: auto;
+    outline: none;
+}
+.roast-profile > circle {
+    fill: white;
+    stroke: black;
+}
+.roast-profile > line {
+    stroke: black;
+    stroke-width: min(1, calc(1rem - 2%));
+}
+.bean > ellipse {
+    fill: white;
+    stroke: black;
+    stroke-width: min(1, calc(1ch - 2%));
+}
+.bean > path {
+    stroke-width: min(1, calc(1ch - 2%));
+    stroke: black;
+    fill: none
+}

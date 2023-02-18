@@ -1,0 +1,1 @@
+export const endpoint = 'https://5law7rzgye.execute-api.us-east-1.amazonaws.com/Prod';

@@ -1,0 +1,25 @@
+.blend {
+    width: 100%;
+    outline: none;
+}
+.blend > line {
+    stroke: black;
+    stroke-width: max(calc(50px - 10vw), 1px);
+}
+.bean > ellipse {
+    fill: white;
+    stroke: black;
+    stroke-width: 0.0725rem;
+}
+.bean > path {
+    stroke-width: 0.0725rem;
+    stroke: black;
+    fill: none
+}
+.coffee line {
+    stroke: hsla(19, 70%, 14%, 1);
+    stroke-width: 0.5rem;
+}
+.blend text {
+    font-size: max(calc(30px - 1vw), 14px);
+}

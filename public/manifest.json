@@ -1,0 +1,12 @@
+{
+    "short_name": "LB Roasters",
+    "name": "Lincoln's Boothe Coffee Roasters",
+    "display": "fullscreen",
+    "icons": [
+        {
+            "src": "/Logo.png",
+            "type": "img/png",
+            "sizes": "256x256"
+        }
+    ]
+}

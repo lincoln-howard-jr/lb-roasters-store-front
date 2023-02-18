@@ -1,0 +1,37 @@
+.card-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.card {
+    display: grid;
+    width: min(45ch, 87%);
+    height: 100%;
+    margin: auto;
+}
+.card img {
+    cursor: pointer;
+    width: 100%;
+    aspect-ratio: 2 / 1;
+    object-fit: cover;
+}
+.card h3 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+.card p {
+    margin: 0;
+}
+@media (min-width: 600px) {
+    .card-list {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width: 1000px) {
+    .card-list {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

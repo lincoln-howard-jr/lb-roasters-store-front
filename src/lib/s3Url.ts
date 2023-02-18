@@ -1,0 +1,1 @@
+export default 'https://lb-coffee-roasters-file-bucket-4-13-2022.s3.amazonaws.com/';
